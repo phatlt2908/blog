@@ -1,2 +1,0 @@
-# patama-blog
-patama blog
