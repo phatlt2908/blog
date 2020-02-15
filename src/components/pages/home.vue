@@ -22,13 +22,6 @@ export default {
     return {
       isLoading: false
     }
-  },
-
-  created() {
-    this.getList()
-  },
-
-  methods: {
   }
 }
 </script>

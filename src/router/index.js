@@ -33,12 +33,20 @@ const routes = [
         }
       },
       {
-        path: 'posts',
-        component: () => import('@/components/pages/posts'),
-        name: 'posts',
+        path: 'post',
+        component: () => import('@/components/pages/post'),
+        name: 'post',
         meta: {
-          title: 'Posts',
-          active: 'posts'
+          title: 'Post',
+          active: 'post'
+        }
+      },
+      {
+        path: 'post-content',
+        component: () => import('@/components/pages/postContent'),
+        name: 'postContent',
+        meta: {
+          title: 'Post Content'
         }
       }
     ]

@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light box-shadow">
     <div class="container">
-      <a class="navbar-brand">Patama Blog</a>
+      <router-link to="/home" class="navbar-brand">Lung Tung</router-link>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="navbar-toggler-icon"></i>
