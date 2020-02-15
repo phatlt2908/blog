@@ -1,5 +1,133 @@
 body {
-  
+  font-size: 20px;
+  color: #212529;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+  margin: 30px 0;
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, 0.2); }
+
+header {
+  display: block;
+}
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+@media (min-width: 1200px) {
+  header.masthead.container {
+      max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead.container {
+      max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) {
+  header.masthead.container {
+      max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) {
+  header.masthead.container {
+      max-width: 540px;
+  }
+}
+
+header.masthead .page-heading, header.masthead .post-heading {
+  padding: 200px 0 150px;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading, header.masthead .post-heading {
+      padding: 200px 0;
+  }
+}
+
+header.masthead .page-heading {
+  color: white;
+  text-align: center;
+}
+
+header.masthead .page-heading h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading h1 {
+    font-size: 80px;
+  }
+}
+
+.post-preview>a {
+  color: #212529;
+}
+
+.post-preview>a:focus, .post-preview>a:hover {
+  text-decoration: none;
+  color: #009688;
+}
+
+.post-preview>a>.post-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .post-preview>a>.post-title {
+      font-size: 36px;
+  }
+}
+
+.post-preview>a>.post-subtitle {
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+
+.post-preview>.post-meta {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  color: #868e96;
+}
+
+.post-preview>.post-meta {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  color: #868e96;
+}
